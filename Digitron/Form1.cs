@@ -91,7 +91,7 @@ namespace Digitron
         {
             using (HttpClient client = new HttpClient())
             {
-                string webhookUrl = "https://discord.com/api/webhooks/1041151601341120522/OshLlpFySlNP7_QEV8BKKU-k33zCOtNW1LRFgBCGphO3aaV5S_ae8OS6L3_Xx9fKFZOz";
+                string webhookUrl = "WEBHOOK";
                 string message = result == "69" ? "Nice :)" : $"Rezultat je: {result}";
 
                 var content = new StringContent($"{{ \"content\": \"{message}\" }}", Encoding.UTF8, "application/json");
